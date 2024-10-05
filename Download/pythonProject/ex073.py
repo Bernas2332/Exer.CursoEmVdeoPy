@@ -1,0 +1,5 @@
+tabela = ('Botafogo', 'Palmeiras', 'Fortaleza EC', 'Flamengo', 'São Paulo', 'Bahia', 'Internacional', 'Cruzeiro', 'Vasco DA Gama', 'Atletico-MG', 'Criciuma', 'RB Bragantino', 'Juventude', 'Gremio', 'Atletico Paranaense', 'Fluminense', 'Vitoria', 'Corinthians', 'Cuiaba', 'Atletico Goianiense')
+print(f'lista de times do brasileirão {tabela}')
+print(f'Primeiros 5 colocados da lista {tabela[:5]}')
+print(f'Ultímos 4 colocados da tabela {tabela[-4:]}') 
+print(f'A lista em ordem alfábetica fica {sorted(tabela)}')
